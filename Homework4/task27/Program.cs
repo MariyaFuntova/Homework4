@@ -6,10 +6,10 @@ int sumInNumber(int numberA)
     int sum = 0;
     while (numberA > 0)
     {
-        int mod =numberA % 10;
-        sum = sum + mod;
-        int div = numberA / 10;
-        numberA = div;
+        int x = numberA % 10;
+        sum = sum + x;
+        int y = numberA / 10;
+        numberA = y;
     }
     return sum;
 }
